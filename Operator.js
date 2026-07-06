@@ -1,11 +1,14 @@
 //________________Arithmetic operators___________
 let a = 10;
 let b = 20;
+a++;
+b--;
 console.log("a+b=",a+b,
      "a-b=",a-b,
       "a*b=",a*b,
        "a/b=",a/b,
-       "a%b=",a%b
+       "a%b=",a%b,
+       "a**b",a**b,
     );
 
 //______________Relational operstor______________
@@ -55,6 +58,8 @@ let z = 0;
 console.log(
     y&&z, y||z, !y
 );
+
+
 
 
 
