@@ -19,11 +19,59 @@ console.log(
 
 //__________Number_________________________
 
-const x = 100;
 console.log(`
-    ${x+null}
-    ${x+undefined,typeof(x+undefined)}
-    ${x+"iyyappan",typeof(x+"iyyappan")}`);
+    ${b+true}
+    ${b+false}
+    ${b+undefined}`);
+    console.log(
+        b+null,
+        b+""
+    );
+
+
+
+//___________Boolean___________________________
+
+console.log(
+    true+null,
+    true+undefined,
+    true+"iyyappz",
+    true+"",
+)
+
+console.log(
+    10=="10"
+);
+
+
+//_______________________EXPLICIT TYPE CONVERSION ____________________________
+/* The explicity type conversion create or make by mannually. it is the highly recomended typeconversion of developers...
+*/
+//___________________String___________________________________________________
+
+console.log(String(false+1+true));
+console.log(String(null+100-true+""));
+console.log(String(100-undefined));
+
+//___________________Number____________________________________________________
+
+console.log(Number(true+true));
+console.log(Number(null-"10"+true+1));
+console.log(Number(false*10+12));
+
+//___________________Boolean____________________________________________________
+
+console.log(Boolean(1));
+console.log(Boolean("iyyappan"));
+console.log(Boolean(0));
+console.log(Boolean(Infinity));
+
+
+//
+
+
+
+
 
 
 
