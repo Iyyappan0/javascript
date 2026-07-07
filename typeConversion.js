@@ -1,7 +1,6 @@
 //___________Implicit Type Conversion_________
-
-const a = "100";
-const b = 200;
+let a = "100";
+let b = 200;
 
 //_______String________________________________
 c={
@@ -17,4 +16,15 @@ console.log(
     ${a+true}
     ${a+" "}`
 );
+
+//__________Number_________________________
+
+const x = 100;
+console.log(`
+    ${x+null}
+    ${x+undefined,typeof(x+undefined)}
+    ${x+"iyyappan",typeof(x+"iyyappan")}`);
+
+
+
 
