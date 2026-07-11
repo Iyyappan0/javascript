@@ -125,6 +125,21 @@ switch (days) {
      else{
         console.log("Your age is not compatitable");
          }
+        
 }
  
      
+
+ 
+
+
+
+
+//_____________Ternary Operator________________
+
+let uInput = "1234";
+let pwd  = "1234";
+let op = pwd == uInput ? "Your login was successfully!" : "Password Incorrect!";
+console.log(op);
+
+
