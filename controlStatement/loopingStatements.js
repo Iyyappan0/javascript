@@ -11,8 +11,46 @@ so,it divide in to 3 types there are,
 // for loop_______________
 
 
-for(a=0;a<10;a++){
-    console.log(a);
+for(a=1;a<=10;a++){
+    console.log(1);
     
 }
+
+//eg:
+
+
+let iy = "Welcome to"
+let w = "World"
+for(i=100;i>=0;i--){
+    console.log(`${iy} ${"javascript"}  World`);
+    
+}
+
+//While loop
+
+
+/*
+Syntax:
+initialization;
+while(Condition;){
+ statement;
+ counter;
+}
+*/
+
+let val = 20;
+while(val>=0){
+    if(val%2 === 1) {
+        console.log(val);}
+    
+val--;
+}
+
+let value = 20.23
+console.log(parseInt(value));
+
+
+
+
+
 
