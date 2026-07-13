@@ -49,8 +49,15 @@ val--;
 let value = 20.23
 console.log(parseInt(value));
 
+// DoWhile statement 
 
-
+let an =100;
+do{
+    console.log(an);
+    an--
+    
+}
+while(an>=0)
 
 
 
