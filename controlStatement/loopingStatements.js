@@ -49,6 +49,7 @@ val--;
 let value = 20.23
 console.log(parseInt(value));
 
+<<<<<<< HEAD
 
 //do while loop
 
@@ -72,6 +73,17 @@ while(iiy>=1)
 
 
 
+=======
+// DoWhile statement 
+
+let an =100;
+do{
+    console.log(an);
+    an--
+    
+}
+while(an>=0)
+>>>>>>> 333866289f252b6245a9387514bb3ad20f9b616f
 
 
 
