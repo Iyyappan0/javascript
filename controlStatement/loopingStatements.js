@@ -50,6 +50,27 @@ let value = 20.23
 console.log(parseInt(value));
 
 
+//do while loop
+
+var i=5;
+do{
+    console.log(i);
+    
+}
+while(i<5)
+
+    /*______________________________________________*/
+var iiy = 100;
+do{
+    if(iiy>i){
+        console.log(iiy);
+        
+    }
+}
+while(iiy>=1)
+
+
+
 
 
 
