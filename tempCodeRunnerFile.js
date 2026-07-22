@@ -1,1 +1,1 @@
-console.log(`${val1}`);
+hoistfunc()

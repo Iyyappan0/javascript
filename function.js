@@ -73,3 +73,74 @@ let nme = (fn) => {
 }
 
 nme(cBack);
+
+//__________Anonomous Function____________
+
+let ananomous = function(){
+    console.log("Anonomous Function");
+    
+}
+ananomous()
+//)_____________________ ARROW Function________
+
+let a=()=>console.log("Arrowfunction")
+a()
+
+
+// __________Higher order Function_________
+
+// let arithmeticFunc = (a,b)=> {
+//     console.log(`
+//         a + b = ${a+b}
+//         a - b = ${a-b}
+//         a * b = ${a*b}
+//         a / b = ${a/b}
+//         a % b = ${a%b}`);
+// }
+
+// let logicalFunc  = (a,b) => {
+//     console.log(`
+//         a > b = ${a>b}
+//         a < b = ${a<b}
+//         a != b = ${a!=b}
+//         a += b = ${a+=b} `);
+    
+
+// }
+
+// arithmeticFunc(10,20,logicalFunc(20,50))
+
+
+
+//Call back function
+
+let func1 = (callback,a,b) => {
+    console.log(`${a+b}`);
+    callback(10,20)
+}
+
+let func2 = (num1,num2) => {
+    console.log(num1+num2);
+    
+
+}
+func1(func2,100,50)
+
+
+//______eg-2__________
+
+let Fname = (cback,Fname) =>{
+    console.log(
+        `hello ${Fname}`
+    );
+    cback()
+    
+}
+
+let sayBye = () => { 
+    console.log(
+        `bye`
+    );
+    
+}
+Fname(sayBye,"iyyappan")
